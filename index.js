@@ -48,7 +48,7 @@ try {
       var cashbackBitcoins = (cashbackSatochis * 0.00000001).toFixed(8); // Bitcoin = Satochi * 10^-8
 
       var bitcoinPrice = (
-        ((5 / 100) * salesBrReais) /
+        ((0.5 / 100) * salesBrReais) /
         cashbackBitcoins
       ).toFixed(2);
 
